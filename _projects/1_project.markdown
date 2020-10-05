@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: Reinforcement Learning Across Timescales
-img: /assets/img/rl1.jpg
+title: Reinforcement Learning Across Timescales
+description: Creating agents that are agnostic to changes in their operating frequency.
+img: /assets/img/rl1.png
 importance: 1
 ---
 
