@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Siddharth  Ravi | a post with comments</title>
+<title>Siddharth  Ravi | Python - The stranger things</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/2015/comments/">
+<link rel="canonical" href="/blog/2020/strange-python/">
 
     
 <!-- MathJax -->
@@ -136,12 +136,55 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">a post with comments</h1>
-    <p class="post-meta">October 20, 2015</p>
+    <h1 class="post-title">Python - The stranger things</h1>
+    <p class="post-meta">October 4, 2020</p>
   </header>
 
   <article class="post-content">
-    <p>This post shows how to add DISQUS comments.</p>
+    <p class="message">
+  This is going to be a live post, updated whenever I run into / remember things I find strange about the python programming language.
+</p>
+
+<p>Although I consider myself an expert at the python programming language, I wasn’t one of those people who started writing code while still in the crib. In fact, I started programming while in university. I was taught the C programming language to start. Thinking back, the best analogy I can come up with is one about ‘being thrown in the deep end of the pool’.</p>
+
+<p>Learning Python changed all that. I taught myself Python after I graduated college. Python was a revelation. Coding programs became a breeze, there is a distinct lack of boilerplate code, with the finished product reading like pseudocode. Easy to debug, with a rich suite of libraries that make you feel like you have superpowers. Nowadays I automate large parts of my life by writing neat little scripts. I scrape webpages with <a href="https://docs.python.org/3.7/library/urllib.html#module-urllib">urllib</a> and <a href="https://requests.readthedocs.io/en/master/">requests</a>, rename and rearrange files with <a href="https://docs.python.org/3/library/shutil.html">shutil</a> and <a href="https://docs.python.org/3/library/os.html?highlight=os#module-os">os</a>.</p>
+
+<p>Now, after many years of programming, I find some things strange with the language. What follows is a list of those <em>stranger things</em>.</p>
+
+<p> </p>
+
+<h3 id="1-the-strange-case-of-the-hanging-comma">1. <ins>The Strange Case of the Hanging Comma</ins></h3>
+
+<p>Here’s how you define a tuple in python, by wrapping stuff in round brackets () . Let’s call the tuple <code class="language-plaintext highlighter-rouge">t</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">t</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">f"t = </span><span class="si">{</span><span class="n">t</span><span class="si">}</span><span class="s">; Type of t = </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="si">}</span><span class="s">"</span><span class="p">)</span> 
+
+<span class="c1"># t = 1; Type of t = &lt;class 'int'&gt;
+</span></code></pre></div></div>
+
+<p>Let’s put a single number inside the brackets to make a tuple</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">f"t = </span><span class="si">{</span><span class="n">t</span><span class="si">}</span><span class="s">; Type of t = </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="si">}</span><span class="s">"</span><span class="p">)</span> 
+
+<span class="c1"># t = 1; Type of t = &lt;class 'int'&gt;
+</span></code></pre></div></div>
+
+<p>Huh.? Now <code class="language-plaintext highlighter-rouge">t</code> is an int, instead of a tuple.</p>
+
+<p>Let’s add a hanging comma after the single number</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="s">f"t = </span><span class="si">{</span><span class="n">t</span><span class="si">}</span><span class="s">; Type of t = </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="si">}</span><span class="s">"</span><span class="p">)</span> 
+
+<span class="c1"># t = 1; Type of t = &lt;class 'tuple'&gt;
+</span></code></pre></div></div>
+
+<p>So, adding a comma after the single number changes it back into a tuple. Strange.</p>
+
+<hr />
+<p>Edit: For a more polished list of strange python, check <a href="https://github.com/satwikkansal/wtfpython">this</a> out</p>
 
   </article>
 
@@ -149,8 +192,8 @@
     <div id="disqus_thread"></div>
     <script type="text/javascript">
       var disqus_shortname  = 'siddharth-ravi';
-      var disqus_identifier = '/blog/2015/comments';
-      var disqus_title      = "a post with comments";
+      var disqus_identifier = '/blog/2020/strange-python';
+      var disqus_title      = "Python - The stranger things";
       (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
