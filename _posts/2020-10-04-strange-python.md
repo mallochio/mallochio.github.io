@@ -23,7 +23,7 @@ Here's how you define a tuple in python, by wrapping stuff in round brackets () 
 
 
 ```python
->>> t = [1,2,3]
+>>> t = (1,2,3)
 >>> print(f"t = {t}; Type of t = {type(t)}") 
 
 # t = 1; Type of t = <class 'int'>
