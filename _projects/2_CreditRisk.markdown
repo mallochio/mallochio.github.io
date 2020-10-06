@@ -6,6 +6,8 @@ img: /assets/img/creditrisk.jpg
 importance: 2
 ---
 
-Note: This project was done at Ernst and Young, Amsterdam.
+*Note: This project was done at Ernst and Young, Amsterdam.*
+
+
 
 
