@@ -23,7 +23,7 @@ I'm a machine learning researcher from the Netherlands.
 
 I am an expert at solving hard problems relating to machine learning and AI. I'm a pragmatist, and I have gathered enough real world experience to know that throwing complex AI models at all of the world's problems is not a viable solution. On the other hand, there is most probably a useful AI method that could benefit your use-case, complex or otherwise. Automation, on the whole is most definitely a good thing.
 
-I currently work as a machine learning research engineer at Q-Free, a large Norwegian tech company where I create deep learning based object detectors and segmenters to solve interesting and hard problems relating to traffic. Prior to that, I was a researcher at Tilburg university working on interpretable machine learning models. Previously I have created machine learning and statistical models for companies like Ernst and Young and Toyota.
+I currently work as a machine learning research engineer at Q-Free, a large Norwegian tech company where I create deep learning based object detectors and segmenters to solve interesting and hard problems relating to traffic. Prior to that, I was a researcher at Tilburg university working on interpretable machine learning models. I have also previously created highly efficient machine learning and statistical models for companies like Ernst and Young and Toyota.
 
 Other non-work stuff about me - 
 
