@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Edit: This blog is a work in progress. Thanks for visiting.!
+Edit: This site is a work in progress. Thanks for visiting.!
 
 I'm a machine learning researcher from the Netherlands.
 
