@@ -27,7 +27,7 @@ I currently work as a machine learning research engineer at Q-Free, a large Norw
 
 Other non-work stuff about me - 
 
-* I try to read a lot of books in my free time, and I log most of it on [Goodreads](https://www.goodreads.com/user/show/22339774-siddharth-ravi). I'm particularly into the writings of [Noam Chomsky](https://www.goodreads.com/book/show/194805.Understanding_Power?ac=1&from_search=true&qid=g5McUTzLFO&rank=5) at the moment of writing this. Goodreads tells me that I read slightly more than one book a week last year, so that is nice. :)
+* I try to read a lot of books in my free time, and I log most of it on [Goodreads](https://www.goodreads.com/user/show/22339774-siddharth-ravi). I'm particularly into the writings of [Noam Chomsky](https://www.goodreads.com/book/show/194805.Understanding_Power?ac=1&from_search=true&qid=g5McUTzLFO&rank=5). Goodreads tells me that I read slightly more than one book a week last year, so that is nice. :smiley:
 
 * I used to be active on [Quora](https://www.quora.com/profile/Siddharth-Ravi-2). I even got a *Top Writer* tag a couple of years back along with some cool swag. I stopped when I realized that my algorithmically generated feed, however much I try to optimize it, is more of a distraction than anything else and that my time was better spent elsewhere.  Now I try to be more of a [digital minimalist](https://www.calnewport.com/blog/2016/12/18/on-digital-minimalism/), more to cultivate concentration than anything else. Hence the creation of this site and associated blog.
 
