@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Link to various course resources.
+description: Links to various course resources.
 nav: true
 ---
 
@@ -25,3 +25,7 @@ This is a list to resources I used to teach courses or sessions.
     Here's a [link](https://siddharth.ai/assets/pdf/struc2vec.pdf) to slides I used for a presentation I gave at a machine learning meetup in the Netherlands, on the topic of struc2vec, a node embedding technique that takes into account the structural identity of nodes.
 
     <iframe src="http://docs.google.com/gview?url=https://siddharth.ai/assets/pdf/struc2vec.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+
+
+4. <ins>Computational intelligence</ins>
+    I also was the teaching assistant for a year for `TI2736A Computational intelligence', a course at TU Delft. I helped in designing and grading assignments, and helped students with their lab work.
