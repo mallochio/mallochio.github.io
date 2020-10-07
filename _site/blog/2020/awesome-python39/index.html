@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Siddharth  Ravi | Reinforcement Learning Across Timescales</title>
+<title>Siddharth  Ravi | Feature Showcase - Python 3.9</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/projects/1_TSAR/">
+<link rel="canonical" href="/blog/2020/awesome-python39/">
 
     
 <!-- MathJax -->
@@ -71,7 +71,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -127,22 +127,63 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Reinforcement Learning Across Timescales</h1>
-    <p class="post-description">Creating agents that are agnostic to changes in their operating frequency.</p>
+    <h1 class="post-title">Feature Showcase - Python 3.9</h1>
+    <p class="post-meta">October 6, 2020</p>
   </header>
 
-  <article>
-    <p>Note: My master’s thesis, supervised by <a href="https://scholar.google.com/citations?user=XOWZzUcAAAAJ&amp;hl=en&amp;oi=ao">Dr. Jens Kober</a> and <a href="https://scholar.google.com/citations?hl=en&amp;user=AM8Se74AAAAJ">Dr. Tim de Bruin</a>. Here’s a <a href="https://repository.tudelft.nl/islandora/object/uuid:cea64928-6d5e-4342-8517-546c8fc2e551?collection=education">link</a> to the official repository.</p>
+  <article class="post-content">
+    <p><em>Edit: Work in progress. Let me know in the comments if you find errors, or have a feature that I missed.</em></p>
 
-<p><ins>Abstract</ins>: This project addresses a fundamental problem faced by many reinforcement learning agents. Commonly used reinforcement learning agents can be seen to have deteriorating performances at increasing frequencies, as they are unable to correctly learn the ordering of expected returns for actions that are applied. We call this the disappearing reinforcements problem. Moreover, truly multi-task reinforcement learning is only possible when agents are able to operate across frequencies, as different platforms operate at different frequencies. Most algorithms from control theory working on similar tasks, on the other hand, show improved performances when their operating frequencies are increased. This suggests that addressing disappearing reinforcements should enable reinforcement learning agents to have improved performance and generalization ability across timescales and tasks. In this project, we show that disappearing reinforcements is an effect seen independent of the function approximator used in reinforcement learning, and is instead of a more fundamental nature. We explore both theoretically and empirically the relationship between agents and their performances at increasing frequencies. We show that two specific types of agents from literature address the problem, and we benchmark the agents’ performances with novel benchmarking measures inspired from control theory. Finally, we create a novel agent we call the dueling advantage learner, by combining both approaches from the state-of-the-art. We then benchmark the different agents across frequencies and tasks, and our agent is seen to outperform each of the individual approaches on the majority of the tasks.</p>
+<hr />
 
-<iframe src="http://docs.google.com/gview?url=https://siddharth.ai/assets/pdf/MasterThesis_Siddharth_Ravi.pdf&amp;embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+<p>Python 3.9 was released on the 6th of October, 2020. Along with that, a host of cool new features were released.</p>
 
+<ol>
+  <li>Better math.gcd() and an additional math.lcm() function</li>
+</ol>
+
+<p>Before 3.9 dropped, math.gcd only used to be able to handle pairs of digits. Now it can handle an arbitrary number of them. Let’s take it for a spin, and calculate some GCDs and LCMs <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">math</span><span class="p">.</span><span class="n">gcd</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">48</span><span class="p">,</span><span class="mi">30</span><span class="p">)</span>
+<span class="c1"># 6
+</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">math</span><span class="p">.</span><span class="n">lcm</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">48</span><span class="p">,</span><span class="mi">30</span><span class="p">)</span>
+<span class="c1"># 240
+</span></code></pre></div></div>
+
+<hr />
+
+<p>Footnotes:</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>GCD stands for greatest common divisor while LCM stands for least common multiple. Here’s a nice couple of functions to calculate the GCD and LCM of functions in older versions of python. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
   </article>
+
+  
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname  = 'siddharth-ravi';
+      var disqus_identifier = '/blog/2020/awesome-python39';
+      var disqus_title      = "Feature Showcase - Python 3.9";
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
 
 </div>
 

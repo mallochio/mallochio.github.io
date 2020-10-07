@@ -4,7 +4,7 @@ title: Python - The stranger things
 comments: true
 ---
 
-*Edit: This is going to be a live post, updated whenever I run into / remember things I find strange about the python programming language.*
+*Edit: This is also going to be a live post and a work-in-progress, updated whenever I run into / remember things I find strange about the python programming language.*
 
 ---
 
