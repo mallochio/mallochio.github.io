@@ -6,7 +6,7 @@ description: Links to various course resources.
 nav: true
 ---
 
-This is a list to resources I used to teach courses or sessions.
+This is a list of resources I used to teach courses or sessions over the years.
 
 1. <ins>Pytorch for machine learning and computational graph building.</ins>
 
