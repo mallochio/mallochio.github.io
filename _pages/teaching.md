@@ -14,12 +14,15 @@ This is a list of resources I used to teach courses or sessions over the years.
 
 
 2. <ins>Generating post-hoc explanations for neural networks through concept mapping.</ins>
-    Here's a [link](https://siddharth.ai/assets/pdf/Concept-mapping.pdf) to the slides I used for my presentation at the Benelux AI conference (BNAIC), 2018. The topic was on concept-mapping, a technique I invented that creates linear maps between feature layers of neural networks and interpretable knowledge comprised on input features.
+
+    Here's a [link](https://siddharth.ai/assets/pdf/Concept-mapping.pdf) to the slides I used for my presentation at the Benelux AI conference (BNAIC), 2018. The topic was on concept-mapping, a technique I created that constructs mappings between feature layers of neural networks and interpretable knowledge comprised on input features.
 
 
-3. <ins>Creating</ins> Struc2vec - Learning Node Representations from Structural Identity
+3. <ins>Struc2vec - Learning Node Representations from Structural Identity </ins> 
+
     Here's a [link](https://siddharth.ai/assets/pdf/struc2vec.pdf) to slides I used for a presentation I gave at a machine learning meetup in the Netherlands, on the topic of struc2vec, a node embedding technique that takes into account the structural identity of nodes.
 
 
 4. <ins>Computational intelligence</ins>
+
     I also was the teaching assistant for a year for `TI2736A Computational intelligence', a course at TU Delft. I helped in designing and grading assignments, and helped students with their lab work.
