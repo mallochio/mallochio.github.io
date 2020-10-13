@@ -6,7 +6,7 @@ description: Links to various course resources.
 nav: true
 ---
 
-This is a list of resources I used to teach courses or sessions over the years.
+This is a list of some resources I used for courses or sessions over the years.
 
 1. <ins>Pytorch for machine learning and computational graph building.</ins>
 
@@ -26,3 +26,10 @@ This is a list of resources I used to teach courses or sessions over the years.
 4. <ins>Computational intelligence</ins>
 
     I also was the teaching assistant for a year for `TI2736A Computational intelligence', a course at TU Delft. I helped in designing and grading assignments, and helped students with their lab work.
+
+
+---
+
+### Volunteering
+
+I also volunteered as a English and mathematics teacher for underprivileged high school students at schools in Mumbai for the 2014-15 academic year, through the Make a Difference foundation.
