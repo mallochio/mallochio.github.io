@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Siddharth  Ravi | Siddharth Ravi</title>
+<title>Siddharth  Ravi | Reinforcement Learning Across Timescales</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/1_TSAR/">
 
     
 <!-- MathJax -->
@@ -71,7 +71,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -129,30 +129,21 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Forward Propagation</h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Reinforcement Learning Across Timescales</h1>
+    <p class="post-description">Creating agents that are agnostic to changes in their operating frequency.</p>
+  </header>
 
+  <article>
+    <p>Note: My master’s thesis, supervised by <a href="https://scholar.google.com/citations?user=XOWZzUcAAAAJ&amp;hl=en&amp;oi=ao">Dr. Jens Kober</a> and <a href="https://scholar.google.com/citations?hl=en&amp;user=AM8Se74AAAAJ">Dr. Tim de Bruin</a>.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/awesome-python39/">Feature Showcase - Python 3.9</a></h3>
-        <p class="post-meta">October 6, 2020</p>
-        <p>Examples of all the cool new features in python 3.9</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/strange-python/">Python - The stranger things</a></h3>
-        <p class="post-meta">October 4, 2020</p>
-        <p></p>
-      </li>
-    
-  </ul>
+<p>Here’s a <a href="https://repository.tudelft.nl/islandora/object/uuid:cea64928-6d5e-4342-8517-546c8fc2e551?collection=education">link</a> to the official repository.</p>
 
-  
+<p>If you’d prefer the pdf, <a href="https://siddharth.ai/assets/pdf/MasterThesis_Siddharth_Ravi.pdf">here</a> you go.</p>
 
+<p><ins>Abstract</ins>: This project addresses a fundamental problem faced by many reinforcement learning agents. Commonly used reinforcement learning agents can be seen to have deteriorating performances at increasing frequencies, as they are unable to correctly learn the ordering of expected returns for actions that are applied. We call this the disappearing reinforcements problem. Moreover, truly multi-task reinforcement learning is only possible when agents are able to operate across frequencies, as different platforms operate at different frequencies. Most algorithms from control theory working on similar tasks, on the other hand, show improved performances when their operating frequencies are increased. This suggests that addressing disappearing reinforcements should enable reinforcement learning agents to have improved performance and generalization ability across timescales and tasks. In this project, we show that disappearing reinforcements is an effect seen independent of the function approximator used in reinforcement learning, and is instead of a more fundamental nature. We explore both theoretically and empirically the relationship between agents and their performances at increasing frequencies. We show that two specific types of agents from literature address the problem, and we benchmark the agents’ performances with novel benchmarking measures inspired from control theory. Finally, we create a novel agent we call the dueling advantage learner, by combining both approaches from the state-of-the-art. We then benchmark the different agents across frequencies and tasks, and our agent is seen to outperform each of the individual approaches on the majority of the tasks.</p>
+
+  </article>
 
 </div>
 
